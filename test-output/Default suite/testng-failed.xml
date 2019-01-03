@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="liveguru99.updatevalue.Sample3">
+        <methods>
+          <include name="Comparebotherrormsg"/>
+          <include name="Open_browser"/>
+          <include name="Enter_Application"/>
+          <include name="Maximize_browser"/>
+        </methods>
+      </class> <!-- liveguru99.updatevalue.Sample3 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
